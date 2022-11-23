@@ -14,4 +14,6 @@ direction = location_1.direction_to(location_2)
 print(f"direction:\t\t\t{direction}°")
 
 # calculate location 2 from location 1 and the distance and heading
-print(f"location 2 (re-calculated):\t{location_1.offset_by(distance, direction)}")
+print(f"location 2 (re-calculated):\t{location_1.offset_by(distance, direction)}") 
+
+# A NEW COMMENT
