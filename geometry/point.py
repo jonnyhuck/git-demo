@@ -23,3 +23,5 @@ class Point:
     def offset_by(self, distance, direction):
         """ compute the location of a point at a given distance and direction from this point along a plane """
         return Point(self.x + cos(radians(direction)) * distance, self.y + sin(radians(direction)) * distance)
+
+# comment...
